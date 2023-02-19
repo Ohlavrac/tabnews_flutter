@@ -7,6 +7,7 @@ import '../dto/content_dto.dart';
 class RemoteRepository extends ContentsRepository {
   RemoteRepository() : super(remote: ContentsRemoteDataSourceImpl());
 
+  @override
   Future<List<ContentDto>?> getContents() async {
     return await remote.getContents();
   }
