@@ -1,5 +1,4 @@
 import 'package:tabnews_flutter/domain/entities/content_entity.dart';
-import 'package:tabnews_flutter/domain/entities/contents_entity.dart';
 import 'package:tabnews_flutter/domain/repositories/contents_repository.dart';
 
 import '../../data/repositories/remote_repository.dart';
